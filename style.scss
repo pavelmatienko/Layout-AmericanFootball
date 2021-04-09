@@ -1,0 +1,1103 @@
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('fonts/subset-ProximaNova-Regular.eot');
+    src: url('fonts/subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-ProximaNova-Regular.woff2') format('woff2'),
+        url('fonts/subset-ProximaNova-Regular.woff') format('woff'),
+        url('fonts/subset-ProximaNova-Regular.ttf') format('truetype'),
+        url('fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left:  auto;
+}
+.header{
+    margin-right: auto;
+    margin-left:  auto;
+    background-image: url('image/football.svg');
+    /*max-width: 1920px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0a0e34
+}
+.header__surface-coaches{
+    padding-top: 54px;
+    max-width: 1532px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__surface{
+        max-width: 189px;
+        height: 33px;
+    }
+    &__coaches{
+        max-width: 200px;
+        color: #ffffff;
+        font-family: 'Proxima Nova Rg';
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 34.49px;
+        text-transform: uppercase;
+    }    
+}
+.header__title{
+    margin-top: 280px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1530px;
+    text-align: center;
+    font-family: 'Proxima Nova Rg';
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    position: relative;
+    &__BE{
+        max-width: 666px;
+        color: #ffffff;
+        font-style: normal;
+        text-align: center;
+        position: relative;
+        z-index: 6;
+    }
+    &__PLAY{
+        margin-left: 438px;
+        max-width: 1071px;
+        color: #ffffff;
+        font-style: normal;
+        text-align: left;
+        position: relative;
+        z-index: 6;
+        &__span{
+            letter-spacing: 5.2px;
+        }
+    }
+    &__svg-title{
+        position: absolute;
+        top: -93px;
+        left: 392px;
+        z-index: 1;
+    }
+}
+.header__nav{
+    margin-bottom: 160px;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1530px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0px;
+    &__list{
+        list-style: none;
+        max-width: 567px;
+        &__item{
+            display: inline-block;
+            vertical-align: top;
+            &__link{
+                text-decoration: none;
+                display: inline-block;
+                vertical-align: top;
+                padding: 10px 20px;
+                color: #9071ea;
+                font-family: 'Proxima Nova Rg';
+                font-size: 14px;
+                font-weight: 300;
+                font-style: normal;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.header__buttons{
+    margin-right: auto;
+    margin-left:  auto;
+    padding-bottom: 90px;
+    max-width: 1530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    &__APP-STORE{
+        margin-right: 50px;
+        width: 311px;
+        box-shadow: 0 16px 24px #0a0e34;
+        background-color: #5e42b0;
+        border-radius: 50px;
+        display: inline-block;
+        vertical-align: top;
+        outline: none;
+        &__icon-buttons{
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 28px;
+            margin-top: 19px;
+            margin-bottom: 21px;
+        }
+        &__text-link{
+            margin-top: 19px;
+            display: inline-block;
+            vertical-align: top;
+            width: 139px;
+            text-align: left;
+            text-transform: uppercase;
+            font-family: 'Proxima Nova Rg';
+            color: #ffffff;
+            &__text{
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                font-style: normal;
+                letter-spacing: normal;
+            }
+            &__link-buttons{
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: 0.7px;
+                line-height: 24px;
+                text-align: left;
+                text-decoration: none;
+            }
+        }
+    }
+    &__GOOGLE-PLAY{
+        width: 311px;
+        box-shadow: 0 16px 24px #0a0e34;
+        background-color: #5e42b0;
+        border-radius: 50px;
+        display: inline-block;
+        vertical-align: top;
+        outline: none;
+    }
+}
+.Players-image{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.section-ATHLETS_ATHLETS-Playersimage{
+    position: absolute;
+    top: 0;
+    left: 870px;
+    z-index: 5;
+}
+.section-ATHLETS Players{
+    position: relative;
+}
+.section-ATHLETS{
+    /*width: 1920px;*/
+    position: relative;
+    overflow: hidden;
+    &__imgline2{
+        top: 41px;
+        left: 277px;
+        position: absolute;
+        z-index: 1;
+    }
+    &__imgline3{
+        top: 119px;
+        left: 365px;
+        position: absolute;
+    }
+
+    &__ATHLETS-Connection{
+        background-color: #ffffff;
+        position: relative;
+        &__ATHLETS-title{
+            /*max-width: 692px;*/
+            padding-top: 82px;
+            padding-bottom: 84px;
+            padding-left: 1009px;
+            color: #e7e7e7;
+            font-family: 'Proxima Nova Rg';
+            font-size: 90px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 110px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        &__ATCon-title{
+            max-width: 692px;
+            padding-left: 1009px;
+            padding-bottom: 31px;
+            color: #c1c1c1;
+            font-family: 'Proxima Nova Rg';
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 34.49px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            &__ATCon-title_span{
+                color: #000000;
+                font-family: 'Proxima Nova Rg';
+                font-size: 18px;
+                font-weight: bold;
+                font-style: normal;
+                line-height: 23px;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 0.9px;
+                margin-right: 13px;
+                border-bottom: 5px solid #5e42b0;
+                vertical-align: top;
+            }
+        }
+        &__ATCon-text{
+            max-width: 692px;
+            padding-left: 1009px;
+            padding-bottom: 50px;
+            color: #000000;
+            font-family: 'Proxima Nova Rg';
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 35px;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+    }
+    &__ATCon-image{
+        position: absolute;
+        top: 26px;
+        left: 273px;
+        z-index: 3;
+    }
+
+    &__ATHLETS-Colaboration{
+        background-color: #f5f4fa;
+        max-width: 1920px;
+        padding-top: 54px;
+    }
+    &__ATHLETS-Growth{
+        background-color: #5e42b0;
+        max-width: 1920px;
+        padding-top: 80px;
+        color: #ffffff;
+    }
+}
+.Playersimage2{
+    position: absolute;
+    top: 38px;
+    left: 1556px;
+}
+.Playersimage3{
+    position: absolute;
+    top: 454px;
+    left: 1031px;
+    z-index: 1;
+}
+.Playersimage4{
+    position: absolute;
+    top: 361px;
+    left: 1583px;
+}
+.Playersimage5{
+    position: absolute;
+    top: 127px;
+    left: 1100px;
+}
+
+.GR-span{
+    border-color:#efefef;
+}
+.Gr-text{
+    color: #ffffff;
+}
+.Players-title{
+    padding-top: 112px;
+    padding-bottom: 92px;
+    padding-left: 328px;
+}
+.PlayersConnection-title{
+    padding-left: 328px;
+}
+.PlayersConnection-text{
+    padding-left: 328px;
+}
+.PlayersColaboration-title{
+    padding-left: 328px;
+}
+.PlayersColaboration-text{
+    padding-left: 328px;
+}
+.PlayersGrowth{
+    background-color: #0a0e34;
+}
+.PlayersGrowth-title{
+    padding-left: 328px;
+}
+.PlayersGrowth-text{
+    padding-left: 328px;
+}
+.Players-span{
+    color: #9173e6;
+    border-color: #ffffff;;
+}
+.section-Beactive{
+    position: relative;
+    max-width: 1920px;
+    display: flex;
+    &__Beactive_card{
+        flex-basis: 50%;
+        background-image: url('image/beactive1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__Beactive_text{
+        flex-basis: 50%;
+        position: relative;
+        &__Beactive_title{
+            padding-left: 127px;
+            padding-top: 257px;
+            opacity: 0.4;
+            color: #c1c1c1;
+            font-family: 'Proxima Nova Rg';
+            font-size: 90px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 60px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        &__Beactive_subtext{
+            max-width: 322px;
+            padding-left: 128px;
+            padding-top: 119px;
+            color: #000000;
+            font-family: 'Proxima Nova Rg';
+            font-size: 24px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 28px;
+            text-align: left;
+            letter-spacing: 1.2px;
+        }
+        &__Beactive_subtextt{
+            margin-top: 87px;
+            margin-left: 128px;
+            width: 22px;
+            height: 5px;
+            border-radius: 2px;
+            background-color: #5e42b0;
+            margin-bottom: 159px;
+            text-decoration: none;
+        }
+        &__Beactive_number{
+            font-family: 'Proxima Nova Rg';
+            font-size: 24px;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 34.49px;
+            letter-spacing: 2.8px;
+            color: #ffffff;
+            position: absolute;
+            top: 211px;
+            left: -84px;
+            border: 1px solid #5e42b0; /* Параметры границы */
+            background:  #5e42b0; /* Цвет фона */
+            padding: 62px 72px; /* Поля вокруг текста */
+            &__span-Beactive{
+                border-bottom: 5px solid #ffffff;
+                border-radius: 5px;
+                padding-bottom: 9px;
+            }
+        }
+    }
+}
+.Findcontact_card{
+    background-image: url('image/findcontact.jpg');
+}
+.Workit_card{
+    background-image: url('image/workit1.jpg');
+}
+.Findcontact_number{
+    top: 211;
+    left: 876px;
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('image/imagefooter1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0a0e34;
+    &__container{
+        max-width: 921px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 209px;
+        display: flex;
+        &__image{
+            flex-basis: 130px;
+            height: 137px;
+            background-image: url('image/footer_image.jpg');
+            background-position: center;
+            background-size: cover;
+            border-radius: 40px;
+            margin-right: 36px;
+        }
+        &__text{
+            flex-basis: 760px;
+            position: relative;
+            &__title{
+                color: #ffffff;
+                font-family: 'Proxima Nova Rg';
+                font-size: 90px;
+                font-weight: 700;
+                line-height: normal;
+                text-align: left;
+                text-transform: uppercase;
+                font-style: normal;
+                letter-spacing: 4.96px;
+                position: relative;
+                z-index: 5;
+            }
+            &__paragraf{
+                color: #a496ca;
+                font-family: 'Proxima Nova Rg';
+                font-size: 36px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 34.49px;
+                text-align: left;
+                text-transform: uppercase;
+                position: relative;
+                z-index: 5;
+            }
+            &__footerline2{
+                position: absolute;
+                top: 0;
+                left: 12px;
+                z-index: 1;
+            }
+            &__footerline1{
+                position: absolute;
+                top: -88px;
+                left: 360px;
+                z-index: 1;
+            }
+        }
+    }
+}
+.footer_buttons{
+    text-align: center;
+    padding-top: 163px;
+    display: flex;
+    justify-content: center;
+}
+.footer_icons{
+    margin-top: 197px;
+    max-width: 1920px;
+    background-color: #0a0e34;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+}
+.icons_social{
+    width: 137px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #ffffff;
+    font-family: 'Proxima Nova Rg';
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.header__buttons__APP-STORE:focus{
+    border: 2px solid white
+}
+.header__buttons__GOOGLE-PLAY:focus{
+    border: 2px solid white
+}
+.myfotorama{
+    position: absolute;
+    top: -999999;
+    left: 0;
+}
+@media (max-width: 1542px) {
+    .header{
+        max-width: 1542px;
+    }
+    .header__surface-coaches{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 53px;
+    }
+    .header__title{
+        margin-top: 0px;
+    }
+    .section-ATHLETS Players Playersimage2{
+        display: none;
+    }
+    .header__title__BE{
+        padding-top: 190px;
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .header__title__PLAY{
+        margin-left: 0;
+        padding-left: 189px;
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .header__title__svg-title{
+        left: 259px;
+        top: 140px;
+    }
+    .header__nav{
+        justify-content: center;
+        margin-top: 164px;
+        margin-bottom: 116px;
+    }
+    /*.section-ATHLETS{
+        max-width: 768px;
+    }*/
+    .section-ATHLETS__ATHLETS-Connection__ATHLETS-title{
+        padding-left: 291px;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATCon-title{
+        padding-left: 292px;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATCon-text{
+        padding-left: 292px;
+    }
+    .section-ATHLETS__ATCon-image{
+        top: 118px;
+        left: -220px;
+        padding: 0;
+    }
+    .section-ATHLETS__imgline3{
+        left: 29px;
+        top: 76px;
+    }
+    .section-ATHLETS__imgline2{
+        top: 115px;
+        left: -435px;
+    }
+    .footballerpng-small{
+        width: 80%;
+        height: 100%;
+    }
+    .Players{
+        padding-left: 0;
+        /*max-width: 768px;*/
+    }
+    .Players-title{
+        padding-left: 39px;
+        padding-bottom: 31px;
+        padding-top: 63px;
+        padding-right: 39px;
+    }
+    .Players-Colaboration{
+        padding-bottom: 31px;
+    }
+    .PlayersConnection-title{
+        padding-left: 39px;
+        padding-bottom: 32px;
+    }
+    .PlayersConnection-text{
+        padding-left: 39px;
+        padding-bottom: 17px;
+        max-width: 368px;
+        padding-left: 0px;
+    }
+    .Players-Colaboration{
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .Players-Colaboration-title{
+        padding-left: 39px;
+        padding-top: 63px;
+    }
+    .PlayersColaboration-text{
+        padding-left: 39px;
+        padding-bottom: 17px;
+        padding-top: 0px;
+    }
+    PlayersGrowth-title{
+        padding-left: 39px;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATCon-text{
+        padding-left: 292px;
+        max-width: 413px;
+    }
+    .PlayersConnection-text{
+        padding-left: 39px;
+    }
+    .PlayersColaboration-text{
+        padding-left: 39px;
+    }
+    .basketplayer{
+        width: 690px;
+    }
+    .section-ATHLETS_ATHLETS-Playersimage{
+        left: 332px;
+        top: 64px;
+        width: 436px;
+    }
+    .Playersimage4{
+        left: 533px;
+        top: 106px;
+    }
+    .Playersimage3{
+        left: 490px;
+        top: 194px;
+    }
+    .section-ATHLETS__ATHLETS-Growth{
+        padding-top: 52px;
+    }
+    .PlayersGrowth-title{
+        padding-left: 39px;
+        padding-bottom: 31px;
+    }
+    .PlayersGrowth-text{
+        padding-left: 39px;
+        padding-bottom: 55px;
+    }
+    .Growth-title{
+        padding-top: 0;
+        padding-bottom: 31px;
+        padding-left: 291px;
+    }
+    .section-Beactive{
+        flex-direction: column;
+    }
+    .section-Beactive__Beactive_card{
+        flex-basis: 484px;
+    }
+    .section-Beactive__Beactive_text{
+        flex-basis: 100%;
+    }
+    .Findcontact{
+        flex-direction: column-reverse;
+    }
+    .section-Beactive__Beactive_text__Beactive_title{
+        padding-left: 30px;
+        padding-top: 87px;
+    }
+    .section-Beactive__Beactive_text__Beactive_subtext{
+        padding-left: 34px;
+        padding-top: 36px;
+        max-width: 650px;
+    }
+    .section-Beactive__Beactive_text__Beactive_subtextt{
+        margin-left: 34px;
+        margin-top: 33px;
+        margin-bottom: 63px;
+    }
+    .section-Beactive__Beactive_text__Beactive_number{
+        top: -80px;
+        left: 35px;
+        padding: 43px 46px;
+    }
+    .footer__container{
+        flex-direction: column;
+        max-width: 676px;
+        padding-top: 128px;  
+    }
+    .PlayersColaboration-title{
+        padding-left: 328px;
+    }
+    .footer__container__image{
+        max-width: 130px;
+        margin-left: 273px;
+        margin-bottom: 66px;
+    }
+    .footer__container__text__title{
+        font-size: 80px;
+    }
+    .footer__container__text{
+        flex-basis: 0;
+    }
+    .footer__container__text__footerline1{
+        left: 296px;
+    }
+    .footer_buttons{
+        flex-direction: row;
+    }
+    .footer_icons{
+        margin-top: 129px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        align-items: center;
+    }
+    .icons_surface{
+        display: none;
+    }
+    .copyright{
+        display: none;
+    }
+    .PlayersColaboration-title{
+        padding-left: 33px;
+        padding-top: 63px;
+        margin-left: 0;
+    }
+    .Playersimage2{
+        display: none;
+    }
+
+} 
+@media (max-width: 768px) {
+    .header__surface-coaches__surface{
+        max-width: 137px;
+        text-align: center;
+    }
+    .header__surface-coaches{
+        padding-left: 91px;
+        padding-right: 92px;
+        padding-bottom: 125px;
+    }
+    .header__surface-image{
+        max-width: 133px;
+    }
+    .header__surface-coaches__coaches{
+        display: none;
+    }
+    .header__title__BE{
+        padding-top: 0;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 1.76px;
+    }
+    .header__title__PLAY{
+        font-size: 32px;
+        line-height: 40px;
+        padding-left: 60px;
+        letter-spacing: 1.76px;
+    }
+    .header__title__svg-title{
+        left: 85px;
+        top: -34px;
+        height: 176px;
+        width: 142px;
+    }
+    .header__nav{
+        text-align: center;
+        margin-top: 202px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .header__nav__list__item__link{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header__buttons__APP-STORE__text-link__text{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .header__buttons__APP-STORE{
+        width: 142px;
+        margin-right: 5px;
+    }
+    .header__buttons__GOOGLE-PLAY{
+        width: 145px;
+    }
+    .header__buttons__APP-STORE__text-link{
+        width: 81px;
+    }
+    .header__buttons__APP-STORE__icon-buttons{
+        margin: 0;
+    }
+    .header__buttons__APP-STORE__text-link__link-buttons{
+        font-size: 8px;
+    }
+    .section-ATHLETS__ATHLETS-Colaboration Players-Colaboration{
+        padding-left: 33px;
+    }
+    .header__buttons__icons{
+        width: 15px;
+        height: 17px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header__buttons__APP-STORE__text-link{
+        margin: 0;
+        padding-top: 11px;
+    }
+    .header__buttons{
+        position: absolute;
+        top: 434px;
+        left: 14px;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATHLETS-title{
+        padding-left: 19px;
+        padding-top: 25px;
+        padding-bottom: 529px;
+        /*width: 210px;*/
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .footballerpng-small{
+        width: 192px;
+    }
+    .section-ATHLETS__ATCon-image{
+        top: 80px;
+        left: 70px;
+    }
+    .footballerpng-smallline{
+        width: 192px;
+    }
+    .section-ATHLETS_ATHLETS-Playersimage{
+        top: 102px;
+        left: 5px;
+        max-width: 320px;
+        overflow: hidden;
+    }
+    .basketplayer{
+        width: 302px;
+    }
+    .section-ATHLETS__imgline2{
+        top: 80px;
+        left: 70px;
+    }
+    .subATCon-title{
+        display: none;
+    }
+    .subATCon-text{
+        display: none;
+    }
+    .ATHLETS-Growth{
+        display: none;
+    }
+    .PlayersGrowth{
+        margin: 0;
+        padding: 0;
+        margin-top: 0px;
+        display: none;
+    }
+    .section-ATHLETS__ATHLETS-Colaboration{
+        margin: 0;
+        padding: 0;
+        margin-top: 200px;
+        max-width: 360px;
+        padding-left: 10px;
+    }
+    .PlayersGrowth{
+        padding-left: 15px;
+    }
+    .Playersimage4{
+        top: 101px;
+        left: 52px;
+    }
+    .Playersimage3{
+        top: 123px;
+        left: 196px;
+    }
+    .basketplayerimg1{
+        width: 93px;
+        height: 109px;
+    }
+    .Playersimage2{
+        top: 223px;
+        left: 52px;
+    }
+    .basketplayerimg2{
+        width: 82px;
+        height: 93px;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATCon-title{
+        padding: 0;
+        margin: 0;
+        padding-top: 81px;
+        padding-bottom: 27px;
+        font-size: 28px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 34.49px;
+        overflow: hidden;
+    }
+    .section-ATHLETS__ATHLETS-Connection__ATCon-text{
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 69px;
+        padding-right: 15px;
+        overflow: hidden;
+    }
+    /*.Players{
+        display: none;
+    }*/
+    .PlayersConnection-title{
+        display: none;
+    }
+    .PlayersConnection-text{
+        display: none;
+    }
+    .Players-Colaboration{
+        display: none;
+    }
+    .section-ATHLETS__imgline3{
+        left: 53px;
+        top: 91px;
+    }
+    .section-Beactive__Beactive_card{
+        flex-basis: 320px;
+    }
+    .section-Beactive__Beactive_text__Beactive_number{
+        top: -58px;
+        left: 19px;
+        padding: 16px 25px;
+    }
+    .section-Beactive__Beactive_text__Beactive_number__span-Beactive{
+        font-size: 14px;
+        border-bottom: 4px solid #ffffff;
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+    .section-Beactive__Beactive_text__Beactive_title {
+        padding-top: 35px;
+        padding-left: 19px;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .section-Beactive__Beactive_text__Beactive_subtext{
+        padding-top: 23px;
+        padding-left: 19px;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 226px;
+    }
+    .section-Beactive__Beactive_text__Beactive_subtextt{
+        margin-left: 19px;
+        margin-top: 23px;
+        margin-bottom: 51px;
+    }
+    .footer__container{
+        padding-top: 97px;
+    }
+    .footer__container__image{
+        margin-left: 124px;
+        margin-bottom: 57px;
+        max-width: 73px;
+        max-height: 78px;
+        border-radius: 23px;
+    }
+    .footer__container__text__title{
+        font-size: 34px;
+        line-height: 34px;
+        letter-spacing: 1.7px;
+        padding-left: 17px;
+    }
+    .footer__container__text__paragraf{
+        padding-left: 17px;
+        line-height: 17px;
+        font-size: 15px;
+        letter-spacing: 0.75px;
+    }
+    .footer__container__text__footerline2{
+        top: -10px;
+        left: 19px;
+        width: 58px;
+        height: 67px
+    }
+    .footer__container__text__footerline1{
+        top: -35px;
+        left: 147px;
+        width: 95px;
+        height: 121px;
+    }
+    .footer__container{
+        padding-top: 72px;
+    }
+    .footer_icons{
+        margin-top: 127px;
+        padding-top: 20px;
+        padding-bottom: 14px;
+    }
+    .myfotorama{
+        position: absolute;
+        top: 340px;
+        left: 5px;
+        z-index: 1;
+        max-width: 320px;
+    }
+    .myfotorama-card1{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #f5f4f9;
+        min-height: 238px;
+    }
+    .myfotorama-text{
+        color: #000000;
+        font-family: 'Proxima Nova Rg';
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 18px;
+        text-align: left;
+        font-style: normal;
+        letter-spacing: 0.75px;
+        padding-bottom: 78px;
+    }
+    .myfotorama-title{
+        color: #c1c1c1;
+        font-family: 'Proxima Nova Rg';
+        font-size: 28px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 34.49px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        padding-top: 46px;
+        padding-bottom: 35px;
+    }
+    .myfotorama-span{
+        color: #000000;
+        font-family: 'Proxima Nova Rg';
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+        margin-right: 13px;
+        border-bottom: 5px solid #5e42b0;
+        vertical-align: top;
+    }
+    .section-ATHLETS__ATHLETS-Colaboration{
+        display: none;
+    }
+
+}
